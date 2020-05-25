@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="Milano.css">
+
+    <link rel="stylesheet" href="swiper.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="">
+        <nav>
+            <div class="main-nav">
+                <a class="not" href=""><img src="https://demos.reytheme.com/milano/wp-content/uploads/sites/9/2019/10/logo-white.svg" alt="logo"></a>
+                <a href="">HOME</a>
+                <a href="">SHOP</a>
+                <a href="">LOOKBOOK</a>
+                <a href="">DESCOVER US</a>
+                <a href="">JOURNAL</a>
+            </div>
+
+            <div>
+                <button><i class="fas fa-search"></i></button>
+                <a class="not" href=""><i class="fas fa-shopping-bag"></i></a>
+                <a href="">ACCOUNT</a>
+            </div> 
+        </nav>
+        <div class="footer">
+          <div><p>follow us:</p>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a></div>
+          <div class="scroll"> <p>SCROLL</p> </div>
+        </div>
+        
+              
+        <!-- Slider main container -->
+        <div class="swiper-container">
+  <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+      <!-- Slides -->
+        <div class="swiper-slide">
+          <h1>Women's Week</h1>
+          <h2>NEW TREND</h2>
+              <p>Take advantage of promotions up to 60%</p>
+              <a>SHOP NOW <span></span></a>
+        </div>
+
+        <!-- ____________________________ -->
+        <div class="swiper-slide">
+        <h1>THE.BASICS</h1>
+        <h2>NEW TREND</h2>
+            <p>An exclusive selection of this season's trends.</p>
+            <a>SHOP NOW <span></span></a>
+
+        </div>
+      <!-- __________________________________ -->
+        <div class="swiper-slide">
+          <h1>Bellemount ‘20</h1>
+          <h2>NEW COLLECTION</h2>
+              <p>Rapidiously redefine dynamic niche markets before plug-and-play collaboration and idea-sharing. Continually utilize focused convergence via top-line outsourcing.</p>
+              <a>SHOP NOW <span></span></a>
+        </div>
+      ...
+        </div>
+      <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+  
+
+      
+  </header>
+
+
+
+    <script src="swiper.min.js" ></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+      // Enable lazy loading
+      lazy: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+        });
+
+    </script>
+</body>
+</html>
