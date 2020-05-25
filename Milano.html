@@ -86,12 +86,14 @@
     <script>
         var swiper = new Swiper('.swiper-container', {
       // Enable lazy loading
-      lazy: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      
+        autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+        },
         });
 
     </script>
